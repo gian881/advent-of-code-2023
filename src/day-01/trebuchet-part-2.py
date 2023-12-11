@@ -32,7 +32,7 @@ def is_spelled_out_number(line: str, index: int) -> tuple[bool, int]:
 
 
 def main() -> None:
-    with open('./01-input.txt', "r", encoding='utf-8') as file:
+    with open('./input.txt', "r", encoding='utf-8') as file:
         text: str = file.read()
     sum = 0
     for line in text.split('\n'):

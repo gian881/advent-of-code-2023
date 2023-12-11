@@ -1,5 +1,5 @@
 def main() -> None:
-    with open('./01-input.txt', "r", encoding='utf-8') as file:
+    with open('./input.txt', "r", encoding='utf-8') as file:
         text = file.read()
     soma = 0
     for line in text.split('\n'):
